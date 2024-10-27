@@ -1,0 +1,326 @@
+/* TrustedPMDealers plugin */
+/* trustedpmdealers.com */
+
+.tpmd-error-message{
+    color: red;
+    font-size: 10px;
+    height: 10px;
+    float: left;
+    width: 100%;
+}
+
+#tpmd_product_data label {
+    /*width: 200px;*/
+}
+
+.tpmd-submit-error{
+    color:red;
+}
+
+.tpmd-submit-success{
+    font-weight: 700;
+    color: #7ad03a;
+}
+.options_group h2 {
+    cursor: pointer;
+}
+.tpmd-submit-not-loaded{
+    color: gray;
+}
+
+.form-field select#tpmd-yearType{
+    width: 18%;
+    margin-right: 10px;
+}
+
+.form-field input#tpmd-years-from,
+.form-field input#tpmd-years-to{
+    width: 15%;
+    height: 28px;
+}
+.form-field input#tpmd-years-single {
+    width: 31%;
+    height: 28px;
+}
+
+.form-field input#tpmd-years-from{
+    margin-right: 8px;
+}
+
+input.tpmd-error-field{
+    border-color: red;
+    background-color: #ffd0d0;
+}
+
+select.tpmd-error-field{
+    border-color: red;
+    background-color: #ffd0d0;
+}
+
+.tpmd .api-key-block{
+    max-width: 480px;
+    background: #fff;
+    border: 1px solid #c4c4c4;
+    position: relative;
+}
+
+.tpmd .api-form-block{
+    padding: 25px;
+}
+
+.tpmd .api-img-block{
+    background-color: #0085ba;
+    text-align: center;
+    padding: 10px 0;
+    z-index: 99;
+}
+
+.tpmd .tpmd-input{
+    box-sizing: border-box;
+}
+
+.tpmd .tpmd-select{
+    margin-bottom: 25px;
+}
+
+.tpmd .api-test-input-error{
+    border: 1px solid red;
+    background: rgba(255, 0, 0, 0.17);
+}
+
+#tpmd-priceCurrency,  #tpmd-SpecialpriceCurrency{
+    width: 24%;
+}
+
+#tpmd-priceType, #tpmd-SpecialpriceType{
+    width: 25%;
+    margin-right: 10px;
+}
+
+#tpmd-premiumType, #tpmd-SpecialpremiumType{
+    width: 25%;
+    margin-right: 10px;
+}
+
+#id-premium-tpmd, #id-special-tpmd {
+    width: 10%;
+    height: 28px;
+    margin-right: 10px;
+}
+.tpmd .tpmd-api-success,
+.tpmd .tpmd-api-error{
+    padding: 10px;
+    border-left: 4px solid #fff;
+}
+
+.tpmd .tpmd-api-success{
+    background-color: #b2f7b2;
+    border-color: #1bc31b;
+}
+.tpmd .tpmd-api-error {
+    background-color: #f59c9c;
+    border-color: #c3311f;
+}
+
+.tpmd .tpmd-input{
+    margin-bottom: 15px;
+    width: 72%;
+    box-sizing: border-box;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.tpmd #tpmd-btn-api-test{
+}
+
+.tpmd .tpmd-notification-bar{
+    display: none;
+    padding-left: 25px;
+    font-weight: bold;
+}
+
+.tpmd .chosentree {
+    max-width: 500px;
+    width: 50%;
+    display: inline-block;
+    padding-top: 9px;
+    margin-left: -23px;
+}
+.tpmd .treewrapper {
+    /* margin-left: 50px; */
+    width: 77%;
+    margin-top: 14px;
+}
+#tpmd-category .chzntree-search-results .treeselect-title {
+    margin-left: 40px !important;
+}
+.tpmd .tpmd-category{
+    float:left;
+}
+
+.tpmd .options_group{
+    border: none;
+}
+
+.tpmd .options_group h2{
+    background-color: #eeeeee;
+    font-weiginht: 700;
+}
+
+.tpmd .tpmd-select{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.tpmd .tpmd-loader {
+    height: 4px;
+    width: 100%;
+    display: none;
+}
+
+.tpmd label.required:after {
+    content: " *";
+    color: #ff0000;
+}
+
+.tpmd .tpmd-loader .tpmd-bar {
+    position: absolute;
+    height: 4px;
+    background-color: #001470;
+    animation-name: tpmd-loader-animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+@keyframes tpmd-loader-animation {
+    0% {
+        width: 0%;
+    }
+    100% {
+        left: 0%;
+        width: 100%
+    }
+}
+
+/* treeselcet */
+
+.treeselect .treenode input, .treeselect .treenode .treenode-no-select {
+    width: 16px !important;
+    height: 16px !important;
+ }
+
+ .tpmd-tooltip{
+margin-bottom: 2em;
+margin-top: 0;
+line-height: 0; 
+ }
+ .tooltip-inner{
+    background-color: transparent !important;
+    color: #000;
+}
+
+.tooltip_templates { display: none; }
+
+.tooltipster-base {
+    pointer-events: auto !important;
+}
+.tolltip_url {
+    text-decoration: underline;
+    color: #0085ba;
+    cursor: pointer;
+}
+.tolltip_url:hover {
+    text-decoration: none;
+}
+.chzntree-container-single .chzntree-search.manualsearch input[type='text'] {
+    width: 59%!important;
+    height: 27px;
+}
+.chzntree-container-single .chzntree-search.manualsearch input.chosentree-search-btn {
+    padding: 1px 19px!important;
+    cursor: pointer;
+}
+
+
+
+p.form-field.tpmd-weight {
+    width: 25%;
+    float: left;
+    vertical-align: top;
+}
+p.form-field.tpmd-weightMeasurement {
+    width: 199px;
+    /* float: left; */
+    padding: 5px 20px 5px 12px!important;
+    display: inline-block;
+}
+.tpmd-weightMeasurement label {
+    display: none;
+}
+
+input#id-weight-tpmd {
+    width: 102%;
+}
+
+p.form-field.tpmd-preciousMetalWeight {
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+}
+p.form-field.tpmd-preciousMetalWeightMeasurement {
+    width: 199px;
+    padding: 5px 20px 5px 12px!important;
+    display: inline-block;
+}
+.tpmd-preciousMetalWeightMeasurement label {
+    display: none;
+}
+
+input#id-preciousMetalWeight-tpmd {
+    width: 102%;
+}
+
+.tpmd-priceValue .tpmd-error-message {
+    clear: both;
+    display: block;
+}
+select#tpmd-priceType, select#tpmd-SpecialpriceType {
+    width: 14%;
+}
+select#tpmd-priceCurrency, select#tpmd-SpecialpriceCurrency{
+    width: 9%;
+    margin-right: 11px;
+}
+
+#tpmd-premiumType, #tpmd-SpecialpremiumType{
+    width: 13%;
+    margin-right: 10px;
+}
+#special_price_dates_from, #special_price_dates_to{
+    width: 20%;
+    margin-right: 10px;
+}
+#tpmd-priceTier th{
+    text-align: left;
+}
+#tpmd-priceTier td{
+    padding-top:  5px;
+}
+#tpmd-priceTier table{
+    padding-left:  15px;
+}
+#tpmd-priceTier{
+
+    padding: 10px 0;
+}
+a.tpmd-removeTier{
+    color: #fff !important;
+    border-color: #9c1717 !important;
+    background: #ff0000 !important;
+}
+div.tpmd span.woocommerce-help-tip{
+    float: left;
+    left: -80px;
+
+}
